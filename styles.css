@@ -197,3 +197,15 @@ body {
     font-weight: 900;
     width: 185px;
 }
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px
+}
+
+.copy {
+    color: #F9FAF8;
+}
