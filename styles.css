@@ -6,7 +6,8 @@ body {
 
 .top-cont,
 .second-cont,
-.third-cont {
+.third-cont,
+.fourth-cont {
     padding: 0 250px;
     height: 500px;
     display: flex;
@@ -117,6 +118,7 @@ body {
 .third-cont {
     background-color: #E5E7EB;
     align-items: center;
+    height: 400px;
 }
 
 .quote-cont {
@@ -146,3 +148,52 @@ body {
     margin: 16px;
 }
 
+.fourth-cont {
+    height: 300px;
+}
+
+.button-cont {
+    background-color: #3882f6;
+    width: 1200px;
+    margin: auto;
+    border-radius: 25px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action {
+    margin-left: 75px;
+}
+
+.main-text {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+    margin: auto;
+}
+
+.under-text {
+    color: #F9FAF8;
+    font-size: 16px;
+    margin: auto;
+}
+
+.make-account {
+    margin: auto 75px;
+}
+
+.make-account button:hover {
+    cursor: pointer;
+    background-color: rgb(54, 105, 136);
+}
+
+.make-account button {
+    background-color: #3882f6;
+    padding: 8px 12px;
+    border-radius: 25px;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    font-weight: 900;
+    width: 185px;
+}
