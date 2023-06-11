@@ -3,13 +3,16 @@ body {
     flex-direction: column;
 }
 
-.top-cont {
-    background-color: #1f2937;
-    color: white; /*temp*/
+.top-cont,
+.second-cont {
     padding: 0 250px;
     height: 500px;
     display: flex;
     flex-direction: column;
+}
+
+.top-cont {
+    background-color: #1f2937;
     justify-content: space-evenly;
 }
 
@@ -74,4 +77,37 @@ body {
 .sign-up button:hover {
     background-color: #E5E7EB;
     cursor: pointer;
+}
+
+.second-cont {
+    align-items: center;
+}
+
+.second-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: auto;
+}
+
+.services {
+    display: flex;
+    gap: 150px;
+    margin: auto;
+}
+.services img {
+    height: 200px;
+    width: 200px;
+    border: 3px solid #3882f6;
+    border-radius: 20%;
+}
+
+.services a {
+    text-decoration: none;
+    color: black;
+}
+
+.services p {
+    font-size: 18px;
+    text-align: center;
 }
