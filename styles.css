@@ -1,10 +1,12 @@
 body {
     display: flex;
     flex-direction: column;
+    margin:0;
 }
 
 .top-cont,
-.second-cont {
+.second-cont,
+.third-cont {
     padding: 0 250px;
     height: 500px;
     display: flex;
@@ -111,3 +113,36 @@ body {
     font-size: 18px;
     text-align: center;
 }
+
+.third-cont {
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+.quote-cont {
+    width: 750px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote,
+.michael-scott {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    margin: 16px;
+    color: #454545;
+}
+
+.michael-scott {
+    align-self: center;
+}
+
+.jordan {
+    align-self: flex-end;
+    font-weight: 600;
+    font-size: 42px;
+    margin: 16px;
+}
+
