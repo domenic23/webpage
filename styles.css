@@ -70,15 +70,17 @@ body {
 .hero-image {
     height: 275px;
     width: 600px;
+    margin-bottom: 60px;
 }
 
 .sign-up button {
-    width: 130px;
-    margin: 16px
+    width: 150px;
+    margin: 16px;
+    border-radius: 25px;
 }
 
 .sign-up button:hover {
-    background-color: #E5E7EB;
+    background-color: #4f85f2;
     cursor: pointer;
 }
 
