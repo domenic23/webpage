@@ -2,3 +2,76 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.top-cont {
+    background-color: #1f2937;
+    color: white; /*temp*/
+    padding: 0 250px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.links-top {
+    display: flex;
+    gap: 65px;
+}
+
+.links-top a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 16px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 600px;
+
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0 0 16px;
+}
+
+.hero-image {
+    height: 275px;
+    width: 600px;
+}
+
+.sign-up button {
+    width: 130px;
+    margin: 16px
+}
+
+.sign-up button:hover {
+    background-color: #E5E7EB;
+    cursor: pointer;
+}
